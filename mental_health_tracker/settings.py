@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-kfu4&%fpg!t_s!c-j5=c2snbi(mso73e8$p4w&7#ybq(nqu%i!
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "http://pbp.cs.ui.ac.id/syifa-ananda31/mentalhealthtracker"]
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'main'
 ]
 
 MIDDLEWARE = [
